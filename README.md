@@ -1,4 +1,4 @@
-# Internship-Task1
+# Data Science & Analytics Interns Task1
 
 # Task1:
 # Objective:
