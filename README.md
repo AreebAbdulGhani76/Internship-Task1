@@ -1,6 +1,6 @@
 # Internship-Task1
 
-# Task1
+# Task1:
 # Objective:
 
 The objective of this repository is to showcase the tasks that I completed during my internship. These tasks focus on data analysis and visualization concepts using Python libraries such as Pandas, Matplotlib, Seaborn and NumPy.
