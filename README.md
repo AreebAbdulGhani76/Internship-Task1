@@ -1,11 +1,11 @@
 # Internship-Task1
 
 # Task1
-# Objective
+# Objective:
 
 The objective of this repository is to showcase the tasks that I completed during my internship. These tasks focus on data analysis and visualization concepts using Python libraries such as Pandas, Matplotlib, Seaborn and NumPy.
 
-# Approach
+# Approach:
 
 Loaded the dataset using pandas via df=pd.read_csv('filename').
 
@@ -19,7 +19,7 @@ Created visualizations using matplotlib and seaborn:
  2) Histogram to examine data distribution
  3) Box Plot to detect outliers and value spread
 
-# Results & Insights
+# Results & Insights:
 
 1) Helped to understand the dataset better using visualizations
 2) Scatter plots shows clear relationships between SepalLength and Sepalwidth features.
