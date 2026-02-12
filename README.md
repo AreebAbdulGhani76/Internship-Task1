@@ -52,7 +52,7 @@ These visualizations helped identify trends and relationships between applicant 
 
 ### 3. Model Training
 Two classification models can be used:
-  **Logistic Regression**
+  **Logistic Regression** or
   **Decision Tree Classifier**
 
 The dataset was split into training and testing sets using an 80/20 ratio.
