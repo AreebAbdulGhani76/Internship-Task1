@@ -1,11 +1,11 @@
 # Data Science & Analytics Interns Task1
 
 # Task1:
-# Objective:
+# 📌Objective:
 
 The objective of this task is to showcase that I completed during my internship. These tasks focus on data analysis and visualization concepts using Python libraries such as Pandas, Matplotlib, Seaborn and NumPy.
 
-# Approach:
+# 🛠️ Approach:
 
 Loaded the dataset using pandas via df=pd.read_csv('filename').
 
@@ -19,7 +19,7 @@ Created visualizations using matplotlib and seaborn:
  2) Histogram to examine data distribution
  3) Box Plot to detect outliers and value spread
 
-# Results & Insights:
+# 📈 Results & Insights:
 
 1) Helped to understand the dataset better using visualizations
 2) Scatter plots shows clear relationships between SepalLength and Sepalwidth features.
@@ -30,10 +30,10 @@ Created visualizations using matplotlib and seaborn:
 
 
 # Task2:
-## Objective:
+## 📌 Objective:
 The objective of this task is to predict whether a loan applicant is likely to default on a loan based on their personal, financial, and loan-related information. This helps financial institutions assess credit risk and make informed lending decisions.
 
-## 🛠️ Approach
+## 🛠️ Approach:
 
 ### 1. Data Preprocessing
   Checked dataset structure and summary statistics using `info()` and `describe()`
@@ -64,7 +64,7 @@ The performance of the models was evaluated using:
 
 These metrics helped measure how well the models predicted loan default and approval cases.
 
-## Results and Insights:
+## 📈 Results and Insights:
 
  1) Education level and income affect whether a loan is approved or not.
  2) Applicants who have higher income and a good credit history usually get their loans approved.
