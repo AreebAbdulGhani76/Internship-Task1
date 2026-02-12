@@ -1,7 +1,7 @@
 # Data Science & Analytics Interns Task1
 
 # Task1:
-# 📌Objective:
+# 📌 Objective:
 
 The objective of this task is to showcase that I completed during my internship. These tasks focus on data analysis and visualization concepts using Python libraries such as Pandas, Matplotlib, Seaborn and NumPy.
 
