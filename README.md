@@ -55,7 +55,7 @@ Loan Status
 
 ## 🛠️ Approach:
 
-### 1. Data Preprocessing
+### 1️⃣ Data Preprocessing
   Checked dataset structure and summary statistics using `info()` and `describe()`
   Handled missing values:
     Numerical features filled using **mean**
@@ -63,21 +63,21 @@ Loan Status
   Dropped irrelevant identifier column (`Loan_ID`)
   Converted categorical variables into numerical form using **Label Encoding**
 
-### 2. Exploratory Data Analysis (EDA)
+### 2️⃣ Exploratory Data Analysis (EDA)
 The following visualizations were created to understand the data:
    **Loan Amount Distribution** (Histplot)
    **Education vs Income** (Box Plot)
 
 These visualizations helped identify trends and relationships between applicant attributes and loan approval.
 
-### 3. Model Training
+### 3️⃣ Model Training
 Two classification models can be used:
   **Logistic Regression** or
   **Decision Tree Classifier**
 
 The dataset was split into training and testing sets using an 80/20 ratio.
 
-### 4. Model Evaluation
+### 4️⃣ Model Evaluation
 The performance of the models was evaluated using:
   **Accuracy Score**
   **Confusion Matrix**
