@@ -92,6 +92,7 @@ These metrics helped measure how well the models predicted loan default and appr
  4) Cleaning missing data and converting categorical values into numbers improves the model’s accuracy.
 
 
+
 ## Task3: Customer Churn Prediction (Bank Customers) 
 📌 Task Objective
 
