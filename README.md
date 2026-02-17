@@ -71,3 +71,56 @@ These metrics helped measure how well the models predicted loan default and appr
  3) The Decision Tree model is easy to understand, while Logistic Regression gives more consistent results.
  4) Cleaning missing data and converting categorical values into numbers improves the model’s accuracy.
 
+
+## Task3:
+📌 Task Objective
+
+The objective of this project is to predict whether a bank customer is likely to leave (churn) based on their personal, financial, and account-related information. Early identification of churn helps banks take preventive actions to retain customers.
+
+## 🛠️ Approach
+## 1️⃣ Data Cleaning & Preparation
+
+# Removed non-informative columns (CustomerId, Surname)
+# Checked and handled data types
+# Separated features and target variable
+
+## 2️⃣ Categorical Data Encoding
+
+Gender encoded using Label Encoding
+Geography encoded using One-Hot Encoding
+Ensured all features were numerical for model training
+
+## 3️⃣ Feature Scaling
+
+Applied StandardScaler
+Scaling was necessary because SVM is sensitive to feature magnitudes
+
+## 4️⃣ Model Training
+
+Used Support Vector Machine (SVM) for supervised classification
+Applied RBF kernel for non-linear decision boundaries
+Split data into training and testing sets (80/20)
+
+## 5️⃣ Model Evaluation
+
+Evaluated performance using:
+
+1) Accuracy
+2) Confusion Matrix
+3) Classification Report (Precision, Recall, F1-score)
+
+## 6️⃣ Feature Importance Analysis
+
+# Since SVM does not provide built-in feature importance:
+
+Used Linear SVM coefficients OR
+Permutation Importance to analyze influential features
+Identified key drivers of customer churn
+
+## 📈 Results & Insights
+
+1) Age is one of the most influential factors in churn prediction
+2) Balance significantly impacts churn likelihood
+3) Inactive customers are more likely to leave the bank
+4) Customers from certain geographical regions show higher churn rates
+
