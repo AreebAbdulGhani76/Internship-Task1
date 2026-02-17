@@ -1,9 +1,19 @@
 # Data Science & Analytics Interns Task1
 
-# Task1:
+# Task1: Exploring and Visualizing a Simple Dataset 
 # 📌 Objective:
 
 The objective of this task is to showcase that I completed during my internship. These tasks focus on data analysis and visualization concepts using Python libraries such as Pandas, Matplotlib, Seaborn and NumPy.
+
+# 📊 Dataset
+Iris Dataset
+This dataset contains measurements of iris flowers:
+
+Sepal Length
+Sepal Width
+Petal Length
+Petal Width
+Species (target/class)
 
 # 🛠️ Approach:
 
@@ -29,9 +39,19 @@ Created visualizations using matplotlib and seaborn:
 
 
 
-# Task2:
+# Task2: Credit Risk Prediction 
 ## 📌 Objective:
 The objective of this task is to predict whether a loan applicant is likely to default on a loan based on their personal, financial, and loan-related information. This helps financial institutions assess credit risk and make informed lending decisions.
+
+## 📊 Dataset
+Loan Prediction Dataset (Kaggle)
+Features may include:
+
+Applicant Income
+Loan Amount
+Education
+Credit History
+Loan Status
 
 ## 🛠️ Approach:
 
@@ -72,34 +92,48 @@ These metrics helped measure how well the models predicted loan default and appr
  4) Cleaning missing data and converting categorical values into numbers improves the model’s accuracy.
 
 
-## Task3:
+## Task3: Customer Churn Prediction (Bank Customers) 
 📌 Task Objective
 
 The objective of this project is to predict whether a bank customer is likely to leave (churn) based on their personal, financial, and account-related information. Early identification of churn helps banks take preventive actions to retain customers.
 
+# 📊 Dataset  
+Churn Modelling Dataset
+
+The dataset contains customer details such as:
+
+Demographics (Age, Gender, Geography)
+Financial information (Balance, Estimated Salary)
+Banking behavior (Tenure, Number of Products, Credit Score)
+
+Target variable: Exited
+
+1 → Customer churned
+0 → Customer stayed
+
 ## 🛠️ Approach
 ## 1️⃣ Data Cleaning & Preparation
 
-# Removed non-informative columns (CustomerId, Surname)
-# Checked and handled data types
-# Separated features and target variable
+1) Removed non-informative columns (CustomerId, Surname)
+2) Checked and handled data types
+3) Separated features and target variable
 
 ## 2️⃣ Categorical Data Encoding
 
-Gender encoded using Label Encoding
-Geography encoded using One-Hot Encoding
-Ensured all features were numerical for model training
+1) Gender encoded using Label Encoding
+2) Geography encoded using One-Hot Encoding
+3) Ensured all features were numerical for model training
 
 ## 3️⃣ Feature Scaling
 
-Applied StandardScaler
-Scaling was necessary because SVM is sensitive to feature magnitudes
+1) Applied StandardScaler
+2) Scaling was necessary because SVM is sensitive to feature magnitudes
 
 ## 4️⃣ Model Training
 
-Used Support Vector Machine (SVM) for supervised classification
-Applied RBF kernel for non-linear decision boundaries
-Split data into training and testing sets (80/20)
+1) Used Support Vector Machine (SVM) for supervised classification
+2) Applied RBF kernel for non-linear decision boundaries
+3) Split data into training and testing sets (80/20)
 
 ## 5️⃣ Model Evaluation
 
@@ -111,11 +145,11 @@ Evaluated performance using:
 
 ## 6️⃣ Feature Importance Analysis
 
-# Since SVM does not provide built-in feature importance:
+Since SVM does not provide built-in feature importance:
 
-Used Linear SVM coefficients OR
+1) Used Linear SVM coefficients OR
 Permutation Importance to analyze influential features
-Identified key drivers of customer churn
+2) Identified key drivers of customer churn
 
 ## 📈 Results & Insights
 
